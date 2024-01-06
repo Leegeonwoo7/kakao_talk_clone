@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>kakao-talk</title>
@@ -16,7 +17,7 @@
         </div>
         <div class="status-bar__column">
             <span>11%</span>
-            <i class="fa-solid fa-battery-half"></i>
+            <i class="fa-solid fa-battery-half fa-lg"></i>
             <i class="fa-solid fa-bolt"></i>
         </div>
     </div>
@@ -26,9 +27,10 @@
         <p class="welcome-header__text">If you have a Kakao Account, log in with your email or phone number.</p>
     </header>
 
-    <form id="login-form">
+    <form class="login-form">
         <input type="text" placeholder="Email or phone number">
         <input type="password" placeholder="password">
+        <input type="submit" value="Log In">
         <a href="#">Find Kakao Account or password</a>
     </form>
     <script src="https://kit.fontawesome.com/545264ee1b.js" crossorigin="anonymous"></script>
