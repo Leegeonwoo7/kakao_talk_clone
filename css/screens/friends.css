@@ -1,0 +1,22 @@
+#friends-name-display{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #FAFAFA;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+#friends-name-display i{
+    margin: 0px 7px;
+    color: #D5D5D5;
+}
+
+.friends-screen{
+    margin-left: var(--horizontal-sapce);
+}
+
+.friends-screen__channel{
+
+    margin-top: 35px;
+}
