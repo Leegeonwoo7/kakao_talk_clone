@@ -5,6 +5,7 @@
     background-color: #FAFAFA;
     padding: 15px;
     margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 #friends-name-display i{
@@ -13,10 +14,18 @@
 }
 
 .friends-screen{
-    margin-left: var(--horizontal-sapce);
+    padding: 0px var(--horizontal-sapce);
 }
 
 .friends-screen__channel{
+    margin-top: 25px;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    padding-top: 15px;
+}
 
-    margin-top: 35px;
+.friends-screen__channel-header{
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(0, 0, 0, 0.3);
 }
